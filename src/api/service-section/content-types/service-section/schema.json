@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "item": {
+    "services": {
       "displayName": "Service-Item",
       "type": "component",
       "repeatable": true,

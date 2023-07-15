@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project-section",
     "pluralName": "project-sections",
-    "displayName": "Project-Section"
+    "displayName": "Project-Section",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
