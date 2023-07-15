@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_messages",
+  "info": {
+    "displayName": "message",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

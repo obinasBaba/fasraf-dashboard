@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_sections",
+  "info": {
+    "singularName": "about-section",
+    "pluralName": "about-sections",
+    "displayName": "about-Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "displayName": "Header ( top )",
+      "type": "component",
+      "repeatable": false,
+      "component": "text.header-top",
+      "required": true
+    },
+    "message": {
+      "displayName": "message",
+      "type": "component",
+      "repeatable": true,
+      "component": "text.message"
+    }
+  }
+}

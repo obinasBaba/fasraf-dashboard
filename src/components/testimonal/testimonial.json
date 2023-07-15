@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_testimonal_testimonials",
+  "info": {
+    "displayName": "testimonial",
+    "icon": "write"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

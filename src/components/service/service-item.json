@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_service_service_items",
+  "info": {
+    "displayName": "Service-Item",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

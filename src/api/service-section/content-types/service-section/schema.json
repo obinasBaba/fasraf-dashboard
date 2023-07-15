@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_sections",
+  "info": {
+    "singularName": "service-section",
+    "pluralName": "service-sections",
+    "displayName": "Service-Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item": {
+      "displayName": "Service-Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "service.service-item",
+      "required": true,
+      "max": 6,
+      "min": 6
+    }
+  }
+}

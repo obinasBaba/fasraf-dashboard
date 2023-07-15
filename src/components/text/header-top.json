@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_text_header_top_s",
+  "info": {
+    "displayName": "Header ( top )",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
