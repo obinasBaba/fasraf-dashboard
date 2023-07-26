@@ -4,6 +4,9 @@ import {parse} from 'pg-connection-string';
 
 export default ({ env }) => {
   const client = env('DATABASE_CLIENT', 'sqlite');
+
+  // postgres://fasraf:ZcTM1r0gj0JqplxPUnXC2a7vkvb0zpYq@dpg-cj0gbclph6ek4q2o3i30-a/fasraf
+
   const { host, port, database, user, password } = parse(env("DATABASE_URL"));
 
   const connections = {
