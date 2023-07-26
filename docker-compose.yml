@@ -1,0 +1,22 @@
+version: '3'
+services:
+  postgres:
+    container_name: fasraf-pg
+    image: postgres:12.2-alpine
+    volumes:
+      - fasraf-data:/var/lib/postgresql/data
+    expose:
+      - 5432
+    ports:
+      - '5432:5432'
+#    env_file: .env
+    environment:
+#      DATABASE_CLIENT: ${DATABASE_CLIENT}
+#      DATABASE_HOST: postgres
+      DATABASE_NAME: fasraf
+      POSTGRES_DB: fasraf
+      POSTGRES_USER: fasraf
+      POSTGRES_PASSWORD: fasraf
+
+volumes:
+  fasraf-data:
