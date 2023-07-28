@@ -2,15 +2,18 @@
   "collectionName": "components_text_messages",
   "info": {
     "displayName": "message",
-    "icon": "chartBubble"
+    "icon": "chartBubble",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "startup": {
+      "type": "text",
+      "required": true
     },
-    "text": {
-      "type": "text"
+    "corporate": {
+      "type": "text",
+      "required": true
     }
   }
 }

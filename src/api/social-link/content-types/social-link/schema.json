@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "social_links",
+  "info": {
+    "singularName": "social-link",
+    "pluralName": "social-links",
+    "displayName": "Social-Links",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "social": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "social-links.link"
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
