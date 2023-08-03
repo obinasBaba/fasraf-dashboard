@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_project_project_descriptions",
+  "info": {
+    "displayName": "Project-Description",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true,
+      "minLength": 10
+    }
+  }
+}

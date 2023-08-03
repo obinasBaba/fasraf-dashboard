@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_testimonal_business_models",
+  "info": {
+    "displayName": "business-models"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "minLength": 2
+    },
+    "description": {
+      "type": "text",
+      "minLength": 5,
+      "required": true
+    }
+  }
+}

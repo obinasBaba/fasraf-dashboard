@@ -6,25 +6,33 @@
   },
   "options": {},
   "attributes": {
-    "tag": {
-      "type": "string",
-      "required": true
+    "date": {
+      "type": "date",
+      "required": true,
+      "default": "2023-08-03"
     },
     "title": {
       "type": "string",
-      "required": true
-    },
-    "description": {
-      "type": "text",
-      "required": true
+      "required": true,
+      "minLength": 5
     },
     "thumbnail": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+
+    "achievements": {
+      "displayName": "Project-Description",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project-description",
+      "required": true,
+      "max": 4,
+      "min": 1
     }
   }
 }

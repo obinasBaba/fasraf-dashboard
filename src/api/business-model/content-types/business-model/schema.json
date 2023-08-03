@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "business_models",
+  "info": {
+    "singularName": "business-model",
+    "pluralName": "business-models",
+    "displayName": "Business-Models",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "models": {
+      "displayName": "business-models",
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonal.business-models"
+    }
+  }
+}
