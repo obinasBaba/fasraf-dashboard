@@ -22,7 +22,7 @@
     "message": {
       "displayName": "message",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "text.message"
     }
   }

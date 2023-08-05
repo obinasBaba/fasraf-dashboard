@@ -2,11 +2,16 @@
   "collectionName": "components_social_links_links",
   "info": {
     "displayName": "link",
-    "icon": "attachment"
+    "icon": "attachment",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "link": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
       "type": "string",
       "required": true
     }
