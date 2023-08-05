@@ -20,11 +20,13 @@
     },
     "phone": {
       "type": "string",
-      "required": true
+      "required": true,
+      "minLength": 5
     },
     "email": {
       "type": "string",
-      "required": true
+      "required": true,
+      "minLength": 5
     }
   }
 }
