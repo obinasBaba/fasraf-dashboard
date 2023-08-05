@@ -21,12 +21,14 @@
     "phone": {
       "type": "string",
       "required": true,
-      "minLength": 5
+      "minLength": 5,
+      "default": "+25112611477"
     },
     "email": {
       "type": "string",
       "required": true,
-      "minLength": 5
+      "minLength": 5,
+      "default": "giulianofcb@gmail.com"
     }
   }
 }
