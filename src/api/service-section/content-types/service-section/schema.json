@@ -18,8 +18,7 @@
       "repeatable": true,
       "component": "service.service-item",
       "required": true,
-      "max": 6,
-      "min": 6
+      "min": 3
     }
   }
 }
