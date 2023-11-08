@@ -1,8 +1,8 @@
 {
-  "name": "rahove-dashboard",
+  "name": "fasraf-dashboard",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Fasraf Dashboard",
   "scripts": {
     "develop": "strapi develop",
     "dev": "strapi develop",
